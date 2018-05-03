@@ -23,7 +23,7 @@ $ python train.py --work_dir ${dir-path-to-save-log-and-checkpoint}
 ### Notes
 - I mainly change the dataloader and it took about 2.4 hours for training PoinNet and 3.7 hours for training PointNet++ on NVIDIA 1080TI
 - I am using tensorflow 1.8 but it should go well on other version
-- Disclaimer: this repo is just a quick implementation to let me get deeper in PointNet and refresh my tensorflow coding. Thus I just did a pretty incomplete test on it
+- Disclaimer: this repo is just a quick implementation to let me get deeper in PointNet and refresh my tensorflow coding. Thus I just did a pretty incomplete test on it (similar classification accuracy claimed in the paper)
 
 ### Credit
 This repo largely depends on [pointnet](https://github.com/charlesq34/pointnet) and [pointnet2](https://github.com/charlesq34/pointnet2), and so does the dataset.
